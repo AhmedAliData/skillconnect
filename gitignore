@@ -1,0 +1,143 @@
+# ===========================
+#  SkillConnect — .gitignore
+# ===========================
+
+# ----------------------------
+# Dependencies
+# ----------------------------
+node_modules/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# ----------------------------
+# Build Outputs
+# ----------------------------
+/dist
+/build
+/out
+/.next/
+/.nuxt/
+/.vite/
+/.cache/
+
+# ----------------------------
+# Environment Variables
+# (Never commit secrets!)
+# ----------------------------
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# ----------------------------
+# Logs
+# ----------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ----------------------------
+# OS Generated Files
+# ----------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ----------------------------
+# Editor & IDE Files
+# ----------------------------
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# IntelliJ / WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------------
+# Testing & Coverage
+# ----------------------------
+/coverage
+*.lcov
+.nyc_output/
+/test-results/
+/playwright-report/
+
+# ----------------------------
+# Package Manager Locks
+# (Keep only ONE — delete others)
+# ----------------------------
+# Uncomment the one you DON'T use:
+# package-lock.json   ← if using yarn
+# yarn.lock           ← if using npm
+
+# ----------------------------
+# Misc / Temporary Files
+# ----------------------------
+*.tmp
+*.temp
+*.bak
+*.orig
+*.pid
+*.seed
+*.pid.lock
+
+# ----------------------------
+# Firebase / Supabase
+# ----------------------------
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+.supabase/
+
+# ----------------------------
+# Vercel / Netlify Deployment
+# ----------------------------
+.vercel
+.netlify/
+
+# ----------------------------
+# TypeScript
+# ----------------------------
+*.tsbuildinfo
+next-env.d.ts
